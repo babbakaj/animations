@@ -1,3 +1,13 @@
+# An exmple showing finite deformation of an orthotropic (composite) material in 2D
+# Fiber direction is indicated in the plot as well as fiber rotation
+# in the deformation process
+# In uniaxial tension, orthotropic material will change the length,
+# but it will also shear 
+# Stiffer direction (fiber direction) tends to allign with the load direction that
+# is indicated with arrows
+#
+# To create animation run: manim -pql orthoDef.py OrthotropicDeformation
+
 from manim import *
 import numpy as np
 
